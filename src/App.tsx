@@ -7,6 +7,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Carousel from "./components/Carousel/Carousel";
 import Footer from "./components/Footer/Footer";
+import TeamCarousel from "./components/Carousel/TeamCarousel";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Wrap />
         <Carousel />
         <JoinDc />
+        <TeamCarousel />
         <Topics />
       </main>
       <Footer />

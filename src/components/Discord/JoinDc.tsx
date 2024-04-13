@@ -13,7 +13,7 @@ const JoinDc = () => {
             collaboration, and more.
           </p>
           <a
-            href="https://discord.com/invite/BtNrYKAaq4"
+            href="https://discord.gg/dxJBwDnu"
             target="_blank"
             className="w-fit"
           >

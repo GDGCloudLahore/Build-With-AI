@@ -8,19 +8,22 @@ export const topics = [
     {
       img: cloudImg,
       imgHvr: cloudHoverImg,
-      title: "Cloud",
-      disc: "Simplify and scale end-to-end development.",
+      title: "Step - I",
+      url: "https://github.com/GDGCloudLahore/Build-With-AI-Labs",
+      disc: "Perform Gemini Labs",
     },
     {
       img: mobileImg,
       imgHvr: mobileHoverImg,
-      title: "Mobile",
-      disc: "Develop for a range of audiences and form factors.",
+      title: "Step - II",
+      url: "https://forms.gle/Dxn4RfYdLNBHSvfW6",
+      disc: "Submit The Labs",
     },
     {
       img: aiImg,
       imgHvr: aiHoverImg,
-      title: "AI",
-      disc: "Bring the power of machine learning to apps and workflows.",
+      title: "Step - III",
+      url: "",
+      disc: "Just relax and keep checking your mail from us!",
     },
   ];
