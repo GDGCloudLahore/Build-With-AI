@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="flex flex-col lg:flex-row  lg:justify-between w-full items-first lg:items-center gap-12 lg:gap-2">
                 <div className="flex items-center gap-4">
                     <img src={GDGLogo} className="w-8 h-8 dark:mix-blend-normal rounded-full" />
-                    GDG Medea
+                    GDG Cloud Lahore
                 </div>
                 <div className="flex gap-4 ">
                     {social_items.map((item, index) => {

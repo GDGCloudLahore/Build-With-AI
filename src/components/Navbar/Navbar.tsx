@@ -23,6 +23,7 @@ const Navbar = () => {
                 <div className="flex  items-center gap-2">
                     <div className=""><a href="/"> Build With AI 2024</a></div>
                 </div>
+                </div>
         </nav>
     )
 }

@@ -1,0 +1,90 @@
+/* Wrap.module.css */
+.wrapContainer {
+    width: 95%;
+    max-width: 100%;
+    border: 2px solid white;
+    background-color: #242424; /* Example color, replace with your actual color variable */
+    color: white;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 407px;
+  }
+  
+  @media (min-width: 768px) {
+    .wrapContainer {
+      flex-direction: row;
+    }
+  }
+  
+  .content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .headline {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    width: 85%;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    .headline {
+      font-size: 62px;
+      line-height: 64px;
+      letter-spacing: -2.5px;
+    }
+  }
+  
+  .contentDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    gap: 1rem;
+  }
+  
+  .subscribeButton {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .subscribeButton:hover {
+    background-color: #0056b3;
+    color: black;
+    border-color: black;
+  }
+  
+  .imageContainer {
+    flex: 1; /* Ensures it takes available space in flex parent */
+    display: flex; /* Enables flexbox */
+    justify-content: flex-end; /* Aligns children (the image) to the right */
+    align-items: center; /* Centers children vertically */
+  }
+  
+  
+  .responsiveImg {
+    width: 50%;  /* Adjust this percentage based on your preference */
+    height: auto; /* Keeps the aspect ratio intact */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  
+  @media (max-width: 768px) {
+    .responsiveImg {
+      display: none; /* Hides the image on mobile if that's still desired */
+    }
+  }
+  
+
+  
