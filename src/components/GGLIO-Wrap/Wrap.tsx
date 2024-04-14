@@ -12,7 +12,7 @@ const Wrap = () => {
           <p>
             Catch up on announcements, deep-dives, and anything you may have missed.
           </p>
-          <a href="https://postman.gdgcloudlahore.org/subscription/form" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7176702375288594432" target="_blank" rel="noopener noreferrer">
             <button className={styles.subscribeButton}>
               Subscribed to Newsletter
             </button>
