@@ -1,4 +1,3 @@
-import React from 'react';
 import wrapImg from "/src/assets/badge.webp";
 import styles from './Wrap.module.css'; // Import the CSS module
 
