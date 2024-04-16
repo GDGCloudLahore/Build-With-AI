@@ -13,7 +13,7 @@ const team = [
     color: "bg-yellow-500",
   },
   {
-    name: "Mr. Adil Shehzad",
+    name: "Mr. Adil Shahzad",
     linkedin: "https://www.linkedin.com/in/adilshehzad7/",
     bio: "Shaping the future: Engineering solutions with DevOps, Kubernetes, DevSecOps, and open source magic.",
     img: TeamMember2,
