@@ -1,11 +1,13 @@
 {
-  "name": "google-io-extended2023",
+  "name": "Build-With-Ai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "prebuild": "cp CNAME tempcname && rm -rf *.js *.css index.html asset-manifest.json",
     "build": "tsc && vite build",
+    "postbuild": "mv tempcname CNAME",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
