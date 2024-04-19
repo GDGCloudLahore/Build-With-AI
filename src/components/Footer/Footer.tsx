@@ -1,5 +1,5 @@
 import social_items from "./social_items"
-import GDGLogo from "../../assets/gdglogo.jpg"
+
 const Footer = () => {
     return (
         <footer id="footer" className="bottom-0 border-t border-gray-400/30 w-full p-12 lg:py-10 px-7 lg:px-16 bg-grey-900 flex flex-col lg:flex-row justify-center lg:justify-between lg:items-center w-max-full">
