@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import GDGlogo from "../../assets/121637837.png"
 
 const Navbar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -24,7 +25,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     {/* Logo can be an image or SVG */}
-                    <img src="/src/assets/121637837.png" className="w-8 h-8 dark:mix-blend-normal rounded-full"  alt="Logo"/> GDG Cloud Lahore | 
+                    <img src={GDGlogo} className="w-8 h-8 dark:mix-blend-normal rounded-full"  alt="Logo"/> GDG Cloud Lahore | 
                     <a href="/" className="text-lg font-bold">Build With AI 2024</a>
                 </div>
                 {/* Start Gemini Lab Button */}
