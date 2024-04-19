@@ -1,18 +1,16 @@
 {
-  "name": "Build-With-Ai",
+  "name": "google-io-extended2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "prebuild": "cp CNAME tempcname", // Remove cleanup from here
+    "prebuild": "cp CNAME tempcname",
     "build": "tsc && vite build",
-    "postbuild": "mv tempcname CNAME && npm run cleanup",
+    "postbuild": "mv tempcname CNAME",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-  }
-}
-,
+  },
   "dependencies": {
     "@material-tailwind/react": "^2.1.0",
     "@react-icons/all-files": "^4.1.0",
