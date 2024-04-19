@@ -4,7 +4,7 @@ import TeamMember3 from "../../assets/moez.jpeg";
 import TeamMember4 from "../../assets/zaid.jpeg";
 import TeamMember5 from "../../assets/daanyal.jpeg";
 import TeamMember6 from "../../assets/bilal.jpeg";
-// import TeamMember7 from "../../assets/bilal.jpeg";
+import TeamMember7 from "../../assets/shmoon.jpeg";
 // import TeamMember8 from "../../assets/bilal.jpeg";
 
 const team = [
@@ -51,10 +51,10 @@ const team = [
     color: "bg-gdgred-500",
   },
   {
-    name: "Mr. Shamoon Lodhi",
-    linkedin: "https://www.linkedin.com/in/mbilal56/",
-    bio: "Full-Stack Developer | Specializing in React, Next.js, Web 3.0, and AWS Solutions",
-    img: TeamMember6,
+    name: "Mr. Shmoon Lodhi",
+    linkedin: "https://www.linkedin.com/in/shmoon-lodhi/",
+    bio: "Associate Consultant | Research Assistant",
+    img: TeamMember7,
     color: "bg-gdgblue-500",
   },
   {
