@@ -5,6 +5,15 @@ const Navbar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
 
+    const scrollToTargetDiv = () => {
+        const targetDiv = document.getElementById('digital-badge');
+        if (targetDiv) {
+          targetDiv.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          console.error("Target div with ID 'digital-badge' not found.");
+        }
+      };
+
     const handleScroll = () => {
         const currentScrollPos = window.pageYOffset;
         const isVisible = prevScrollPos > currentScrollPos;
@@ -29,7 +38,7 @@ const Navbar = () => {
                     <a href="/" className="text-lg font-bold">Build With AI 2024</a>
                 </div>
                 {/* Start Gemini Lab Button */}
-                <a href="https://github.com/GDGCloudLahore/Build-With-AI-Labs" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">
+                <a onClick={() =>scrollToTargetDiv()} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">
                     Start Gemini Lab
                 </a>
             </div>

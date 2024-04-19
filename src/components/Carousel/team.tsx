@@ -1,8 +1,11 @@
 import TeamMember1 from "../../assets/asad.jpeg";
 import TeamMember2 from "../../assets/adil.jpeg";
 import TeamMember3 from "../../assets/moez.jpeg";
-import TeamMember4 from "../../assets/daanyal.jpeg";
-import TeamMember5 from "../../assets/bilal.jpeg";
+import TeamMember4 from "../../assets/zaid.jpeg";
+import TeamMember5 from "../../assets/daanyal.jpeg";
+import TeamMember6 from "../../assets/bilal.jpeg";
+// import TeamMember7 from "../../assets/bilal.jpeg";
+// import TeamMember8 from "../../assets/bilal.jpeg";
 
 const team = [
   {
@@ -27,18 +30,39 @@ const team = [
     color: "bg-gdgblue-500",
   },
   {
+    name: "Mr. Zaid Bari",
+    linkedin: "https://www.linkedin.com/in/itszbari/",
+    bio: "Project Manager @ InstoreX ApS ¦ Founder & Lead @Google Developer Groups Nicosia",
+    img: TeamMember4,
+    color: "bg-gdggreen-500",
+  },
+  {
     name: "Mr. Daanyal Rahila Memon",
     linkedin: "https://www.linkedin.com/in/daanyal-rahila-memon/",
     bio: "Google Cloud Lahore Web Team Lead | LFX & CNCF | KCD Lahore | Backend Developer | TypeScript | NestJS | TypeORM | GraphQL | PostgreSQL | MERN Stack Developer | Blockchain Enthusiast",
-    img: TeamMember4,
-    color: "bg-gdggreen-500",
+    img: TeamMember5,
+    color: "bg-yellow-500",
   },
   {
     name: "Mr. Muhammad Bilal",
     linkedin: "https://www.linkedin.com/in/mbilal56/",
     bio: "Full-Stack Developer | Specializing in React, Next.js, Web 3.0, and AWS Solutions",
-    img: TeamMember5,
-    color: "bg-yellow-500",
+    img: TeamMember6,
+    color: "bg-gdgred-500",
+  },
+  {
+    name: "Mr. Shamoon Lodhi",
+    linkedin: "https://www.linkedin.com/in/mbilal56/",
+    bio: "Full-Stack Developer | Specializing in React, Next.js, Web 3.0, and AWS Solutions",
+    img: TeamMember6,
+    color: "bg-gdgblue-500",
+  },
+  {
+    name: "Mr. Taqveem Ahmad",
+    linkedin: "https://www.linkedin.com/in/m-taqveem-ahmad/",
+    bio: "UI/UX Designer",
+    img: TeamMember6,
+    color: "bg-gdggreen-500",
   },
 ];
 export default team;
