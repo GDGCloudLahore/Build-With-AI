@@ -5,7 +5,7 @@ const Footer = () => {
         <footer id="footer" className="bottom-0 border-t border-gray-400/30 w-full p-12 lg:py-10 px-7 lg:px-16 bg-grey-900 flex flex-col lg:flex-row justify-center lg:justify-between lg:items-center w-max-full">
             <div className="flex flex-col lg:flex-row  lg:justify-between w-full items-first lg:items-center gap-12 lg:gap-2">
                 <div className="flex items-center gap-4">
-                    <img src={GDGLogo} className="w-8 h-8 dark:mix-blend-normal rounded-full" />
+                    <img src="/src/assets/121637837.png" className="w-8 h-8 dark:mix-blend-normal rounded-full" />
                     GDG Cloud Lahore
                 </div>
                 <div className="flex gap-4 ">
