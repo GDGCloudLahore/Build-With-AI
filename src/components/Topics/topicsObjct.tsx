@@ -23,7 +23,7 @@ export const topics = [
     //   img: aiImg,
     //   imgHvr: aiHoverImg,
       title: "Step - III",
-      url: "https://trygcp.dev/e/build-ai-LHR01",
-      disc: "Get Your Digital Badge & Cloud Credits",
+      // url: "https://trygcp.dev/e/build-ai-LHR01",
+      disc: "We Will Email You Digital Badge & Cloud Credits",
     },
   ];
