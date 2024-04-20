@@ -5,7 +5,7 @@ import TeamMember4 from "../../assets/zaid.jpeg";
 import TeamMember5 from "../../assets/daanyal.jpeg";
 import TeamMember6 from "../../assets/bilal.jpeg";
 import TeamMember7 from "../../assets/shmoon.jpeg";
-// import TeamMember8 from "../../assets/bilal.jpeg";
+import TeamMember8 from "../../assets/taqveem.jpeg";
 
 const team = [
   {
@@ -61,7 +61,7 @@ const team = [
     name: "Mr. Taqveem Ahmad",
     linkedin: "https://www.linkedin.com/in/m-taqveem-ahmad/",
     bio: "UI/UX Designer",
-    img: TeamMember6,
+    img: TeamMember8,
     color: "bg-gdggreen-500",
   },
 ];
