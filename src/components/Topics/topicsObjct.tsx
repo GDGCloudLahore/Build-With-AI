@@ -24,6 +24,6 @@ export const topics = [
     //   imgHvr: aiHoverImg,
       title: "Step - III",
       // url: "https://trygcp.dev/e/build-ai-LHR01",
-      disc: "We Will Email You Digital Badge & Cloud Credits",
+      disc: "We Will Email You Digital Badge",
     },
   ];
